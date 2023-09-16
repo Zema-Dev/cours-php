@@ -7,4 +7,9 @@ class Personne {
         $this->nom = $nom;
         $this->age = $age;
     }
+
+    public function afficherDetails() {
+        echo "Nom : " . $this->nom . "<br>";
+        echo "Âge : " . $this->age . "<br>";
+    }
 }
