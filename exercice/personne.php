@@ -1,3 +1,4 @@
+<?php
 class Personne {
     public $nom;
     public $age;
