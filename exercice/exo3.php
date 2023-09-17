@@ -9,7 +9,10 @@ class Personne {
     }
 
     public function afficherDetails() {
-        echo "Nom : " . $this->nom . "<br>";
-        echo "Âge : " . $this->age . "<br>";
+        echo "Nom : " . $this->nom . "\n";
+        echo "Âge : " . $this->age ." ans";
     }
 }
+$personne3 = new Personne("Benzema", 30);
+$personne3->afficherDetails();
+?>
